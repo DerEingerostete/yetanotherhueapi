@@ -11,6 +11,19 @@ Unreleased
 
 TBA
 
+v2.7.0 (2022-04-19)
+----------
+
+### Added
+
+* A new method, `HueBridgeConnectionBuilder.isHueBridgeEndpoint()`, to test whether you are indeed
+  trying to connect to a Hue bridge and not some other server by accident (contributed by @Kakifrucht)
+* `getId()` method for `Scene` objects, to get the technical ids of scenes.
+
+### Changed
+
+* The `java.util.logging` based loggers have been scrapped in favor of SLF4J (contributed by @Kakifrucht)
+
 v2.6.0 (2022-02-16)
 ----------
 
